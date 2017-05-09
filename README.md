@@ -2,7 +2,7 @@
 
 
 #### Top Level Gradle File 
-```sh
+```gradle
  // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
@@ -33,7 +33,7 @@ task clean(type: Delete) {
 ```
 
 #### App Level Gradle File 
-```sh
+```gradle
  apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'  //Plugin for kotlin coding in android
 apply plugin: 'kotlin-android-extensions' //Plugin for kotlin coding in android
